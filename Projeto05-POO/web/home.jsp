@@ -19,12 +19,15 @@
     </head>
     <body class="fundo">
         
+        <%@include file="WEB-INF/jspf/header.jspf" %>
+        
         <div class="container marcador">
             
             <h1>Conteúdo do Site</h1>
             
         </div>
        
+        <%@include file="WEB-INF/jspf/footer.jspf" %>
         
     </body>
     
