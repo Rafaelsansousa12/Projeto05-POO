@@ -10,21 +10,23 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="estilo.css" rel="stylesheet">
-        <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <%@include  file="WEB-INF/jspf/boot.jspf"%>
         
-        <title>JSP Page</title>
+        <title>Pizzadelo</title>
         
     </head>
-    <body class="fundo">
+    <body>
         
         <%@include file="WEB-INF/jspf/header.jspf" %>
         
-        <div class="container marcador">
-            
-            <h1>Conteúdo do Site</h1>
-            
+        <div class="jumbotron container">
+          <h1 class="display-3">Hello, world!</h1>
+          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          <hr class="my-4">
+          <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </p>
         </div>
        
         <%@include file="WEB-INF/jspf/footer.jspf" %>
